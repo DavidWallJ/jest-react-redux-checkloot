@@ -41,7 +41,17 @@ p {
 	color: #658d72;
 }
 
-.jestCoverage {
+.jestCoverage,
+.githubLink {
 	font-size: 16px;
 	padding-top: 40px;
+}
+
+.githubLink {
+	text-decoration: none;
+	color: white;
+}
+
+.githubLink:hover {
+	color: #e24242;
 }

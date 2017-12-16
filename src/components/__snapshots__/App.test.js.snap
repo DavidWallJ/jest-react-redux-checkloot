@@ -30,6 +30,13 @@ ShallowWrapper {
 >
           * Fully Jest tested to a coverage of %95.12
 </p>,
+        <a
+          className="githubLink"
+          href="https://github.com/DavidWallJ/jest-react-redux-checkloot"
+          target="_blank"
+>
+          View the code on Github
+</a>,
       ],
       "className": "App",
     },
@@ -94,6 +101,20 @@ ShallowWrapper {
         "rendered": "* Fully Jest tested to a coverage of %95.12",
         "type": "p",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "View the code on Github",
+          "className": "githubLink",
+          "href": "https://github.com/DavidWallJ/jest-react-redux-checkloot",
+          "target": "_blank",
+        },
+        "ref": null,
+        "rendered": "View the code on Github",
+        "type": "a",
+      },
     ],
     "type": "div",
   },
@@ -116,6 +137,13 @@ ShallowWrapper {
 >
             * Fully Jest tested to a coverage of %95.12
 </p>,
+          <a
+            className="githubLink"
+            href="https://github.com/DavidWallJ/jest-react-redux-checkloot"
+            target="_blank"
+>
+            View the code on Github
+</a>,
         ],
         "className": "App",
       },
@@ -179,6 +207,20 @@ ShallowWrapper {
           "ref": null,
           "rendered": "* Fully Jest tested to a coverage of %95.12",
           "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "View the code on Github",
+            "className": "githubLink",
+            "href": "https://github.com/DavidWallJ/jest-react-redux-checkloot",
+            "target": "_blank",
+          },
+          "ref": null,
+          "rendered": "View the code on Github",
+          "type": "a",
         },
       ],
       "type": "div",
