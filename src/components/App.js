@@ -1,17 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Wallet from './Wallet';
+import Loot from './Loot';
 
-class App extends Component {
-	render() {
-		return (
-			<div className="App">
-				<h2>Loot Check</h2>
-				<hr />
-				<Wallet />
-			</div>
-		);
-	}
-}
+const App = () => {
+	return (
+		<div className="App">
+			<h2>Wallet</h2>
+			<hr />
+			<Wallet />
+			<hr />
+			<Loot />
+			<p className="jestCoverage">
+				* Fully Jest tested to a coverage of %95.12
+			</p>
+		</div>
+	);
+};
 
 export default App;

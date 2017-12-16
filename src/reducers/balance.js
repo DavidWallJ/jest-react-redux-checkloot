@@ -1,16 +1,25 @@
+import { read_cookie, bake_cookie } from 'sfcookies';
+
 const balance = (state = 0, action) => {
+	let balance;
+
 	switch (action.type) {
 		case 'SET_BALANCE':
-			return action.balance;
+			balance = action.balance;
+			break;
 		case 'DEPOSIT':
-			return state + action.deposit;
+			balance = state + action.deposit;
+			break;
 		case 'WITHDRAW':
-			return state - action.withdraw;
+			balance = state - action.withdraw;
+			break;
 		default:
-			return state;
+			balance = parseInt(read_cookie('BALANCE_COOKIE'), 10) || state;
 	}
+
+	bake_cookie('BALANCE_COOKIE', balance);
+
+	return balance;
 };
 
 export default balance;
-
-// you're here.  state isn't making it to the App file

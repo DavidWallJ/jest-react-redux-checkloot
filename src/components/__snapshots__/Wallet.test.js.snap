@@ -25,12 +25,12 @@ ShallowWrapper {
         <h3
           className="balance"
 >
-          Wallet balance: 
+          Wallet balance: $
           20
 </h3>,
         <br />,
         <input
-          className="inputWallet"
+          className="input-wallet"
           onChange={[Function]}
 />,
         <button
@@ -55,14 +55,14 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "Wallet balance: ",
+            "Wallet balance: $",
             20,
           ],
           "className": "balance",
         },
         "ref": null,
         "rendered": Array [
-          "Wallet balance: ",
+          "Wallet balance: $",
           20,
         ],
         "type": "h3",
@@ -81,7 +81,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "className": "inputWallet",
+          "className": "input-wallet",
           "onChange": [Function],
         },
         "ref": null,
@@ -127,12 +127,12 @@ ShallowWrapper {
           <h3
             className="balance"
 >
-            Wallet balance: 
+            Wallet balance: $
             20
 </h3>,
           <br />,
           <input
-            className="inputWallet"
+            className="input-wallet"
             onChange={[Function]}
 />,
           <button
@@ -157,14 +157,14 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "Wallet balance: ",
+              "Wallet balance: $",
               20,
             ],
             "className": "balance",
           },
           "ref": null,
           "rendered": Array [
-            "Wallet balance: ",
+            "Wallet balance: $",
             20,
           ],
           "type": "h3",
@@ -183,7 +183,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "inputWallet",
+            "className": "input-wallet",
             "onChange": [Function],
           },
           "ref": null,

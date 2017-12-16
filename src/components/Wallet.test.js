@@ -13,11 +13,11 @@ describe('Wallet', () => {
 	});
 
 	it('displays the balance from props', () => {
-		expect(wallet.find('.balance').text()).toEqual('Wallet balance: 20');
+		expect(wallet.find('.balance').text()).toEqual('Wallet balance: $20');
 	});
 
 	it('creates an input to deposit or withdraw from the balance', () => {
-		expect(wallet.find('.inputWallet').exists()).toBe(true);
+		expect(wallet.find('.input-wallet').exists()).toBe(true);
 	});
 
 	describe('when the user types into the wallet input', () => {
@@ -25,7 +25,7 @@ describe('Wallet', () => {
 
 		beforeEach(() => {
 			wallet
-				.find('.inputWallet')
+				.find('.input-wallet')
 				.simulate('change', { target: { value: userBalance } });
 		});
 
